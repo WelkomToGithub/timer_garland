@@ -1,0 +1,50 @@
+#form input {
+    font-size: 25px;   
+    outline: none;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.container {
+    margin: 30px, auto; 
+}
+.text {
+    font-size: 150px;
+    color: rgb(51, 51, 51);
+}
+.box {
+    height: 40px;
+    display: grid;
+    grid-gap: 10px;
+    grid: auto  / repeat(6, 90px);
+    padding: 10px, 0px;
+}
+.inside {
+    padding: 5px;
+    height: 30px;
+    width: 25px;
+    border-radius: 50%;
+    filter: blur(5px);
+    z-index: 1;
+}
+.dot:nth-child(even){
+    margin-top: auto;
+}
+.dot {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 12px;
+    border-radius: 50%;
+    border-color: black;
+    z-index: 2;
+}
+.inside:nth-child(even) {
+   margin: 10px auto;
+}
